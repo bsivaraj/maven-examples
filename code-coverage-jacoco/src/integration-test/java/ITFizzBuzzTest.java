@@ -24,7 +24,7 @@ public class ITFizzBuzzTest {
     }
 
     //Commented out on purpose so that you can see the difference in code coverage reports
-    /*
+    
     @Test
     public void getFizzBuzzWord_NumberIsMultipleOfFive_ShouldReturnBuzz() {
         assertThat(fizzBuzz.getFizzBuzzWord(5), is("Buzz"));
@@ -34,7 +34,7 @@ public class ITFizzBuzzTest {
     public void getFizzBuzzWord_NumberIsMultipleOfThreeAndFive_ShouldReturnFizzBuzz() {
         assertThat(fizzBuzz.getFizzBuzzWord(15), is("FizzBuzz"));
     }
-    */
+    
 
     @Test
     public void getFizzBuzzWord_NumberIsNotMultipleOfThreeOrFive_ShouldReturnNull() {
